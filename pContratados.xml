@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pContratados>
+    <pContratado>
+        <nombre>Juan</nombre>
+        <apellidos>Vileta</apellidos>
+        <dni>47859685Z</dni>
+        <usuario>Juanito</usuario>
+        <password>1234</password>
+        <rol>usuario</rol>
+    </pContratado>
+    <pContratado>
+        <nombre>Greg</nombre>
+        <apellidos>House</apellidos>
+        <dni>48753185Z</dni>
+        <usuario>House</usuario>
+        <password>1234567</password>
+        <rol>admin</rol>
+    </pContratado>
+</pContratados>

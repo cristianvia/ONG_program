@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.AdminViewController">
+    <children>
+      <TableView fx:id="table" prefHeight="472.0" prefWidth="316.0" />
+      <AnchorPane fx:id="anchorPane" layoutX="409.0" layoutY="53.0" />
+      <Pane layoutX="332.0" layoutY="87.0" prefHeight="299.0" prefWidth="245.0" style="-fx-background-color: #FFD1C7;">
+         <children>
+            <TextField fx:id="name" layoutX="33.0" layoutY="24.0" promptText="Nombre" />
+            <TextField fx:id="surname" layoutX="33.0" layoutY="57.0" promptText="Apellidos" />
+            <TextField fx:id="dni" layoutX="33.0" layoutY="90.0" promptText="DNI" />
+            <TextField fx:id="user" layoutX="33.0" layoutY="158.0" promptText="Usuario" />
+            <PasswordField fx:id="pass" layoutX="33.0" layoutY="194.0" promptText="Contraseña" />
+            <Label fx:id="lbl_Error" layoutX="42.0" layoutY="245.0" prefHeight="17.0" prefWidth="130.0" textFill="RED" />
+         </children>
+      </Pane>
+      <Button fx:id="showPC" layoutX="395.0" layoutY="21.0" mnemonicParsing="false" onAction="#showPContratados" text="Mostrar empleados" />
+      <Button fx:id="addPC" layoutX="469.0" layoutY="397.0" mnemonicParsing="false" onAction="#addPContratados" text="Añadir empleado" />
+   </children>
+</AnchorPane>

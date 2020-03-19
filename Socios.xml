@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<socios>
+    <socio>
+        <nombre>Lluc</nombre>
+        <apellidos>Caset</apellidos>
+        <dni>12345678Z</dni>
+        <cuota>mensual</cuota>
+        <importe>100</importe>
+    </socio>
+    <socio>
+        <nombre>Jana</nombre>
+        <apellidos>Garli</apellidos>
+        <dni>12874678Z</dni>
+        <cuota>anual</cuota>
+        <importe>1300</importe>
+    </socio>
+</socios>

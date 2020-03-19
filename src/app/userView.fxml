@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.UserViewController">
+    <children>
+      <TableView fx:id="table" prefHeight="472.0" prefWidth="316.0" />
+      <AnchorPane fx:id="anchorPane" layoutX="409.0" layoutY="53.0">
+         <children>
+            <Button fx:id="showPC" layoutX="-26.0" mnemonicParsing="false" onAction="#showPContratados" text="Mostrar empleados" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
